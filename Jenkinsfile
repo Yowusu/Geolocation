@@ -21,12 +21,7 @@ pipeline {
                 
             }
         }
-         stage('test') {
-            steps {
-                echo 'test'
-                mvn 'test'
-            }
-        }
+         
          stage('deploy') {
             steps {
                 echo 'deploy'
