@@ -30,5 +30,9 @@ pipeline {
                 mvn 'test'
             }
         }
-    }
+         stage ('Docker') {
+             steps {
+                 echo 'Image step'
+             }
+         }
 }
