@@ -35,4 +35,4 @@ pipeline {
                  echo 'Image step'
              }
          }
-}
+
